@@ -1,9 +1,0 @@
-Instructions
-
-Ask user if they have played the game
-
-if they say yes, launch the game.
-
-If they say no, show the instructions 
-
-if they say anything else, ask the question again
