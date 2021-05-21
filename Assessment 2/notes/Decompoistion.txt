@@ -1,0 +1,15 @@
+decomposition 
+
+Instructions
+
+Yes no checker
+
+Ask user how much they want to 
+play for(should be an interger more  
+than 0and less than equal to 10
+
+Generate random horse,zebra,donkey or uncorn.
+
+Workout payout/balance
+
+Game mechanics/looping
