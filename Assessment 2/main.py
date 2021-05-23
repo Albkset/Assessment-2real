@@ -1,17 +1,26 @@
-play = ""
-while play.lower() != "xxx":
-    # Ask the user if they have have played before
-    play = input("Have you played this game before? ").lower()
+# Functions go here
+def yes_no(question):
+    valid = False
+    while not valid:
+        response = input(question).lower()
 
-    # If they say yes, output 'program continues'
-    if play == "yes" or play == "y":
-        play = "yes"
-        print("program continues")
+        # If they say yes, output 'program continues'
+        if response == "yes" or response == "y":
+            response = "yes"
+            return response
 
-    elif play == "no" or play == "n":
-        play = "no"
-        print("Display instructions")
-    # If they say no, output 'display instructions'
-    else:
-        print("Please answer yes / no")
+        elif response == "no" or response == "n":
+            response = "no"
+            return response
 
+
+        # If they say no, output 'display instructions'
+        else:
+            print("Please answer yes / no")
+
+# Main Routine goes here
+show_instructions = yes_no("Have you played the game before  ")
+print("You chose {}". format(show_instructions))
+print()
+having_fun = yes_no("Are you having fun? ")
+print("you said {} to having fun ".format(having_fun))
