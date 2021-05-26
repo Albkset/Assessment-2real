@@ -31,8 +31,8 @@ if played_before == "no":
     instructions()
 
 print("Programs continues")
-
 print()
+
 having_fun = yes_no("Are you having fun? ")
 if having_fun == "yes":
     print("you said {} to having fun ".format(having_fun))
