@@ -4,7 +4,7 @@
 
 # Main routine goes here
 
-error = "Please enter a whole number between 1 and 10"
+error = "Please enter a whole number between 1 and 10\n"
 
 question = "How much are you willing to pay? "
 
@@ -22,5 +22,5 @@ while not valid:
 
         else:
             print(error)
-    except ValueError as e:
-        print(e)
+    except ValueError :
+        print(error)
