@@ -57,12 +57,10 @@ print()
 
 how_much = num_check("How much are you willing to pay? ", 0, 10)
 print("You will be spending ${}".format(how_much))
-
 import random
     # set balance for testing purpose
 
 balance = how_much
-STARTING_BALANCE = how_much
 
 rounds_played = 0
 
@@ -111,13 +109,8 @@ while play_again == "":
         play_again = "xxx"
         print ("Sorry you have run out of money")
     else:
-        play_again = input("Please Enter to play again ""or 'xxx' to quit ")    
-
-
-         
-print("Starting Balance: ${:.2f}".format(STARTING_BALANCE))
-print("Final Balance: {:.2f}".format(balance))
-    
+        play_again = input("Please Enter to play again ""or 'xxx' to quit ")
+        
 having_fun = yes_no("Are you having fun? ")
 if having_fun == "yes":
     print("you said {} to having fun ".format(having_fun))
