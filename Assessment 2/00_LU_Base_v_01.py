@@ -164,6 +164,7 @@ if having_fun == "yes":
     print()
     statement_generator("Thank you for enjoying our game, We hope you play with us again ", "*")
 else:
+    print()
     statement_generator("Thank you for your response", "#")
 print()
 
